@@ -63,11 +63,6 @@ def basic_safety_check(message):
         "hate", "racist", "slur", "nazi", "slave", "stupid", "idiot",
         "fool", "retard", "bitch", "bastard", "ugly", "pig", "moron",
 
-        # --- Sexual / NSFW ---
-        "sex", "nude", "porn", "xxx", "rape", "breast", "vagina", "penis",
-        "cock", "pussy", "cum", "orgasm", "masturbate", "horny", "fuck",
-        "f***", "boobs", "dick", "slut", "whore",
-
         # --- Drugs / illegal activity ---
         "cocaine", "heroin", "weed", "marijuana", "meth", "drug", "smuggle",
         "gun", "weapon", "knife", "shooting",
@@ -415,3 +410,4 @@ def get_trending():
 # ============================
 if __name__ == '__main__':
     app.run(debug=True)
+
